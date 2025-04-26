@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+.tiny5-regular {
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/8d/d4/e0/8dd4e098c3a237d7e756cf0072aee9ee.png"); 
+}
+h1 {
+    color: #8A0041;
+    height: 10vh;
+    font-size: 5em;
+    /* padding: 50px; */
+}
+nav {
+    /* width: 100vw; */
+    padding: 1em;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 200px; */
+}
+
+.nav-item {
+    width: fit-content;
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+}
+
+.field {
+    display: grid;
+    width: 94vw;
+    height: 47vw;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: 1px;
+
+}
+.cell{
+    background-color: rgb(38, 38, 38);
+}
+
+.field-container {
+    display: none;
+    background-color: black;
+    width: 100vw;
+    height: 100vw;
+}
+
+.color_cell {
+    width: 5vw;
+    height: 5vw;
+}
+.red {
+    background-color: rgba(198, 57, 57, 0.79);
+}
+.orange {
+    background-color: rgb(220, 156, 38);
+}
+.yellow {
+    background-color: rgb(220, 191, 43);
+}
+.green {
+    background-color: rgb(88, 122, 13);
+}
+.blue {
+    background-color: rgb(23, 90, 183);
+}
+.white {
+    background-color: rgb(247, 246, 240);
+}
+.but {
+    width: 5vw;
+    height: 5vw;
+}
+.fill {
+    background-color: rgb(204, 182, 182);
+    border:1px black solid;
+}
+.rub {
+    background-color: rgb(204, 182, 182);
+}
+
+.fil {
+    background-color: rgb(204, 182, 182);
+}
+
+.save {
+    background-color: rgb(204, 182, 182);
+}
+.selected {
+    border: 2px rgb(219, 220, 208) solid;
+}
